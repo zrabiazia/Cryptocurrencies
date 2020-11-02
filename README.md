@@ -1,1 +1,7 @@
-# Cryptocurrencies
+# Cryptocurrencies Analysis
+
+Martha is a senior manager for the Advisory Services Team at Accountability Accounting, a prominent investment bank, is interested in offering a new cryptocurrency investment portfolio for thier customers. The company asked to create a report that includes what cryptocurrencies are on the trading market and how they could be grouped to create a classification system for this new investment.
+
+As there is no output for what the company is looking for, decided to use unsupervised learning. The data used for this project is not ideal, so it will need to be processed to fit the machine learning models. to group the cryptocurrencies, used a clustering algorithm then will use the visulizations to share the findings.
+
+Pandas commands were used to drop the columns, delete the null values, determined the working algorithms and TotalCoinsMined. StandardScaler function was used to standarize the features, used PCA algorithm to reduce the dimensions to three pricipal components. Elbow Curve was created with hvplot to determined the best value for k and predictions were made on the k clusters of crypocurrencies data.for visulizations, Martha created the 3D scatter plot to display the clusters. The cryptocurrencies table was created with the hvplot.table. MinMaxScaler().fit_transfor method to scale the columns data between range of zero to one. At the end, created a hvplot.scatter to display the MinMaxScaler() cluster data.
